@@ -1,0 +1,40 @@
+% Copyright 2007 by Marco Barisione
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+
+% Base : Torino (Marco Barisione, licence GNU GPL)
+% Adapte pour Lorraine Data Network par Julien VAUBOURG
+
+\usepackage{transparent}
+\institute{FFDN}
+
+\mode<presentation>
+
+%\DeclareOptionBeamer{alternativetitlepage}[true]{\PassOptionsToPackage{alternativetitlepage=#1}{beamerinnerthemefancy}}
+
+\DeclareOptionBeamer{titlepagelogo}{
+	\PassOptionsToPackage{alternativetitlepage=true}{beamerinnerthemefancy}
+	\PassOptionsToPackage{titlepagelogo=#1}{beamerinnerthemefancy}
+}
+
+%\DeclareOptionBeamer{bullet}{\PassOptionsToPackage{bullet=#1}{beamerinnerthemefancy}}
+%\DeclareOptionBeamer{pageofpages}{\PassOptionsToPackage{pageofpages=#1}{beamerouterthemedecolines}}
+%\DeclareOptionBeamer{watermarkheightmult}{\PassOptionsToPackage{watermarkheightmult=#1}{beamerouterthemedecolines}}
+
+\PassOptionsToPackage{watermark=logoldn}{beamerouterthemedecolines}
+\PassOptionsToPackage{watermarkheight=20px}{beamerouterthemedecolines}
+\PassOptionsToPackage{titleline=true}{beamerouterthemedecolines}
+
+\ProcessOptionsBeamer
+
+\useinnertheme{fancy}
+\useoutertheme{decolines}
+\usecolortheme{ldn}
+
+\setbeamertemplate{navigation symbols}{}
+
+\mode
+<all>
