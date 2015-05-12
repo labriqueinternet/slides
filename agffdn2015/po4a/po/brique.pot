@@ -1,0 +1,581 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-05-10 02:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. \documentclass[notes=only]{beamer}
+#. type: Plain text
+#: conf-labriqueinternet2.tex:5
+msgid ""
+"\\pdfobjcompresslevel=1 \\documentclass[notes=hide]{beamer} "
+"\\usetheme[titlepagelogo=img2/cover]{LDN}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:12
+msgid "\\usepackage[utf8]{inputenc}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:12
+msgid "\\usepackage[francais]{babel}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:12
+msgid "\\usepackage[T1]{fontenc}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:12
+msgid "\\usepackage{tabularx, verbatim, xcolor, textpos}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:12
+msgid "\\usepackage{lmodern, alltt, graphicx, ragged2e}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:12
+msgid "\\usepackage{marvosym, multicol, textcomp, eurosym}"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:18
+msgid "\\colorlet{titre}{white} \\setbeamercolor{normal text}{fg=white,bg=white}"
+msgstr ""
+
+#. \date{\textbf{FM 2015}}
+#. type: textbf{#1}
+#: conf-labriqueinternet2.tex:21
+msgid "AG FFDN 2015"
+msgstr ""
+
+#. type: title{#2}
+#: conf-labriqueinternet2.tex:26
+msgid "La Brique Internet"
+msgstr ""
+
+#. type: Plain text
+#: conf-labriqueinternet2.tex:26
+msgid "\\subtitle{\\vspace{10pt}\\emph{Internet Neutre \\& Auto-Hébergement}}"
+msgstr ""
+
+#. type: author{#2}
+#: conf-labriqueinternet2.tex:26
+msgid "Neutrinet \\\\ Lorraine Data Network \\\\ YunoHost"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:40
+msgid "\\titlepage"
+msgstr ""
+
+#. type: textblock
+#: conf-labriqueinternet2.tex:40
+msgid "(10,-7)"
+msgstr ""
+
+#. type: textblock
+#: conf-labriqueinternet2.tex:40
+msgid "(9.5,-4)"
+msgstr ""
+
+#. type: textblock
+#: conf-labriqueinternet2.tex:40
+msgid "(10,-1.5)"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:40
+msgid "{\\color{black}\\textbf{Assemblée Générale FFDN 2015}}"
+msgstr ""
+
+#. type: document
+#: conf-labriqueinternet2.tex:43
+msgid "\\watermarkon \\watermarkoff"
+msgstr ""
+
+#. type: document
+#: conf-labriqueinternet2.tex:53
+msgid "\\setbeamercolor{background canvas}{bg=black}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:53
+msgid "{\\fontsize{30}{30}\\selectfont Lorraine Data Network}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:61
+msgid "{\\fontsize{60}{60}\\selectfont libre, neutre}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:69
+msgid "{\\fontsize{60}{60}\\selectfont et décentralisé}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:77
+msgid "{\\fontsize{40}{40}\\selectfont Libre et neutre~?}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:85 conf-labriqueinternet2.tex:92 conf-labriqueinternet2.tex:99 conf-labriqueinternet2.tex:106
+msgid "\\frametitle{\\textcolor{titre}{Sans la Brique}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:113 conf-labriqueinternet2.tex:192 conf-labriqueinternet2.tex:204 conf-labriqueinternet2.tex:216 conf-labriqueinternet2.tex:232 conf-labriqueinternet2.tex:244 conf-labriqueinternet2.tex:256
+msgid "\\frametitle{\\textcolor{titre}{Problèmes~?}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:130
+msgid "\\frametitle{\\textcolor{titre}{Problèmes}}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:130
+msgid "Bridage (Free/Youtube)  \\pause"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:130
+msgid "Blocage de port (Orange port 25)  \\pause"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:130
+msgid "Adressage IP dynamique / IPv6 (Orange)  \\pause"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:130
+msgid "Censure (DNS menteurs)  \\pause"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:130
+msgid "Surveillance (Boîtes noires ?)  \\pause"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:130 conf-labriqueinternet2.tex:192 conf-labriqueinternet2.tex:204 conf-labriqueinternet2.tex:216 conf-labriqueinternet2.tex:232 conf-labriqueinternet2.tex:244 conf-labriqueinternet2.tex:256
+msgid "Utilisation des données personnelles"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:139
+msgid "\\frametitle{\\textcolor{titre}{Promesse de ne pas respecter ma vie privée}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:165 conf-labriqueinternet2.tex:165 conf-labriqueinternet2.tex:165 conf-labriqueinternet2.tex:165 conf-labriqueinternet2.tex:172 conf-labriqueinternet2.tex:180
+msgid "\\frametitle{\\textcolor{titre}{Avec la Brique}}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:192
+msgid "Bridage (YouTube/Free)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:192 conf-labriqueinternet2.tex:204
+msgid "Blocage de port (Orange port 25)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:192 conf-labriqueinternet2.tex:204 conf-labriqueinternet2.tex:216
+msgid "Adressage IP dynamique / IPv6 (Orange)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:192 conf-labriqueinternet2.tex:204 conf-labriqueinternet2.tex:216 conf-labriqueinternet2.tex:232
+msgid "Censure (DNS menteurs)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:192 conf-labriqueinternet2.tex:204 conf-labriqueinternet2.tex:216 conf-labriqueinternet2.tex:232 conf-labriqueinternet2.tex:244
+msgid "Surveillance (Boîtes noires ?)"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:264
+msgid "{\\fontsize{60}{60}\\selectfont libre, neutre!}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:283
+msgid "{\\fontsize{60}{60}\\selectfont Décentralisé ?}"
+msgstr ""
+
+#. sans la brique
+#. avec la brique
+#. solution
+#. type: frame
+#: conf-labriqueinternet2.tex:283
+msgid "\\frametitle{\\textcolor{titre}{Comment communique-t-on sur Internet ?}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:291
+msgid "\\frametitle{\\textcolor{titre}{Ce que vous acceptez chez Google}}"
+msgstr ""
+
+#. type: justify
+#: conf-labriqueinternet2.tex:291
+msgid ""
+"« \\emph{En soumettant des contenus à nos Services, par importation ou par "
+"tout autre moyen, \\textbf{vous accordez à Google (et à toute personne "
+"travaillant avec Google) une licence}, dans le monde entier, d'utilisation, "
+"d'hébergement, de stockage, \\textbf{de reproduction, de modification}, de "
+"création d’œuvres dérivées [...], de communication, de publication, de "
+"représentation publique, \\textbf{d'affichage ou de distribution public "
+"desdits contenus.}} »\\\\"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:299
+msgid "\\frametitle{\\textcolor{titre}{Ce que vous acceptez chez Facebook}}"
+msgstr ""
+
+#. type: justify
+#: conf-labriqueinternet2.tex:299
+msgid ""
+"« \\emph{Pour le contenu protégé par les droits de propriété intellectuelle, "
+"comme les photos ou vidéos, [...] \\textbf{vous nous accordez une licence} "
+"non-exclusive, \\textbf{transférable, sous-licenciable}, sans redevance et "
+"mondiale \\textbf{pour l'utilisation des contenus de propriété "
+"intellectuelle que vous publiez} sur Facebook ou en relation à Facebook} »"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:308
+msgid "\\frametitle{\\textcolor{titre}{Pendant combien de temps chez Google~?}}"
+msgstr ""
+
+#. type: justify
+#: conf-labriqueinternet2.tex:308
+msgid ""
+"« \\emph{Cette autorisation demeure pour toute la durée légale de protection "
+"de votre contenu, \\textbf{même si vous cessez d’utiliser nos Services}.} »"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:320
+msgid "\\frametitle{\\textcolor{titre}{Pendant combien de temps chez Facebook}}"
+msgstr ""
+
+#. type: justify
+#: conf-labriqueinternet2.tex:320
+msgid ""
+"« \\emph{Cette licence de propriété intellectuelle \\textbf{se termine "
+"lorsque vous supprimez vos contenus} de propriété intellectuelle ou votre "
+"compte, \\textbf{sauf si votre compte est partagé avec d'autres personnes} "
+"qui ne l'ont pas supprimé.} »\\\\"
+msgstr ""
+
+#. type: justify
+#: conf-labriqueinternet2.tex:320
+msgid ""
+"« \\emph{Lorsque vous supprimez votre contenu [...], vous comprenez que "
+"\\textbf{les contenus supprimés peuvent persister dans des copies} de "
+"sauvegarde pendant \\textbf{un certain temps}.} »"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:324
+msgid ""
+"\\frametitle{\\textcolor{titre}{Et avec la Brique Internet, cela se passe "
+"comment~?}} \\pause"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:353
+msgid "{\\fontsize{60}{60}\\selectfont Décentralisé !}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:361
+msgid "\\frametitle{\\textcolor{titre}{Combien ça coute…?}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:368
+msgid "\\frametitle{\\textcolor{titre}{Olimex}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:381
+msgid "\\frametitle{\\textcolor{titre}{Boite}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:381
+msgid "\\frametitle{\\textcolor{titre}{Alimentation}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:388
+msgid "\\frametitle{\\textcolor{titre}{Antenne wifi}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:395
+msgid "\\frametitle{\\textcolor{titre}{Carte mémoire}}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:402
+msgid ""
+"{\\Large Environ \\textbf{70\\euro{} pour 1 Brique$^*$} complète \\\\ (frais "
+"de port inclus)}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:406
+msgid ""
+"{\\Large Environ \\textbf{7 \\euro{} / mois} pour un \\\\ \\textbf{accès "
+"VPN} associatif}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:411
+msgid ""
+"{\\footnotesize \\emph{* pour une commande groupée > 9 Briques, sinon "
+"80\\euro}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:420
+msgid "\\frametitle{\\textcolor{titre}{J'ai une brique !}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:429
+msgid "\\frametitle{\\textcolor{titre}{Je n'ai qu'a la brancher à ma box}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:438
+msgid "\\frametitle{\\textcolor{titre}{Qui ne prend pas de place}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:447
+msgid "\\frametitle{\\textcolor{titre}{Et ça marche tout de suite}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:456
+msgid ""
+"\\frametitle{\\textcolor{titre}{Je peux toujours utiliser les autres "
+"services de mon FAI}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:471
+msgid "\\frametitle{\\textcolor{titre}{Bilan}}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:471
+msgid "La Brique Internet permet donc de :"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:471
+msgid "Facilement \\textbf{nettoyer} son accès à Internet,"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:471
+msgid ""
+"et d'\\textbf{autohéberger} des services et ses données sans être "
+"informaticien"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:471
+msgid "\\pause Et c'est pas fini…"
+msgstr ""
+
+#. ou obtenir une brique ?
+#. type: center
+#: conf-labriqueinternet2.tex:478
+msgid "{\\Huge \\textbf{Où trouver ce boîtier ?}}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:483
+msgid ""
+"{\\large \\emph{Parce qu'il n'y en a pas à Carrefour, ni chez Amazon (pas "
+"encore)}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:492
+msgid "\\frametitle{\\textcolor{titre}{Dans des associations locales}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:501
+msgid ""
+"\\frametitle{\\textcolor{titre}{Ou le faire soi-même, puisque tout est "
+"libre}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:520
+msgid "\\frametitle{\\textcolor{titre}{Et c'est pas fini…}}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "Yunhost permet l'auto-hébergement facile (jabber, mail, …)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "Il suffit de se déplacer avec sa Brique pour"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "avoir ses services, et ses données avec soi (vacances, déménagement)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "\\textbf{pour conserver} son accès à Internet"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid ""
+"\\textbf{partager} avec d'autres un accès à un Internet propre "
+"(événementiel)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "\\pause"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "Nettoyer n'importe quel accès à Internet (exemple un accès 3G)"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:520
+msgid "Avoir des \\textbf{adresses ipv4 et ipv6 fixes}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:532 conf-labriqueinternet2.tex:551 conf-labriqueinternet2.tex:571 conf-labriqueinternet2.tex:592
+msgid "\\frametitle{\\textcolor{titre}{Les applications de la Brique :}}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:532 conf-labriqueinternet2.tex:551 conf-labriqueinternet2.tex:571 conf-labriqueinternet2.tex:592
+msgid "Connexion internet neutre par VPN"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:540 conf-labriqueinternet2.tex:559 conf-labriqueinternet2.tex:579
+msgid "\\frametitle{\\textcolor{titre}{La brique VPN}}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:551 conf-labriqueinternet2.tex:571 conf-labriqueinternet2.tex:592
+msgid "Partage Box"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:571 conf-labriqueinternet2.tex:592
+msgid "Accès torifié"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:592
+msgid "Les 3 en même temps (multi SSID) \\good"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:600
+msgid "\\frametitle{\\textcolor{titre}{L'avenir}}"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:611
+msgid "\\frametitle{\\textcolor{titre}{La Brique Internet, c'est donc}}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:611
+msgid "\\textbf{s'émanciper} du pouvoir de son FAI"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:611
+msgid "\\textbf{reprendre le contrôle} sur ses services et ses données"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:611
+msgid "\\textbf{utiliser un Internet} propre sereinement"
+msgstr ""
+
+#. type: frame
+#: conf-labriqueinternet2.tex:620
+msgid "\\frametitle{\\textcolor{titre}{La Brique Internet ?}}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:634
+msgid "{\\Huge discussions@listes.labriqueinter.net}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:634
+msgid "Discussions -- \\url{https://listes.labriqueinter.net/}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:634
+msgid "Images (en beta) -- \\url{https://repo.labriqueinter.net/}"
+msgstr ""
+
+#. type: itemize
+#: conf-labriqueinternet2.tex:634
+msgid "Scripts de build -- \\url{http://build.labriqueinter.net/}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:648
+msgid "{\\Huge \\url{http://LaBriqueInter.net}}"
+msgstr ""
+
+#. type: center
+#: conf-labriqueinternet2.tex:648
+msgid ""
+"Trouver une association près de chez vous : \\vspace{.5cm} {\\Large "
+"\\url{http://db.ffdn.org}}"
+msgstr ""
