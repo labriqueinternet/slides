@@ -7,13 +7,14 @@
 [fill]
 [font=Sans 50px]
 
--- [font=Sans 60px] [text-align=center] [fit]
-Installer une Brique Internet
+-- [transition=text-slide-down] [font=Sans 60px] [text-align=center] [fit]
+<b>Installer une Brique Internet</b>
 <small><i>Labeur, Better, Bonheur</i></small>
 
--- [font=Sans 60px] [text-align=center] [fit]
-AG FFDN 2015
+-- [transition=slide-up] [font=Sans 60px] [text-align=center] [fit]
+<b>AG FFDN 2015</b>
 <i>Labeur 😼</i>
+
 
 -- [img/repo.png] [text-align=center] [bottom] [fit]
 Télécharger l'image Debian/YunoHost
@@ -100,33 +101,33 @@ _xmpp-client._tcp 14400 IN SRV 0 5 5222 poney.ninja.
 _xmpp-server._tcp 14400 IN SRV 0 5 5269 poney.ninja.
 @ 14400 IN MX 5 poney.ninja.</tt>
 
--- [font=Sans 60px] [text-align=center] [fit]
-Entre les deux AG FFDN
+-- [transition=slide-up] [font=Sans 60px] [text-align=center] [fit]
+<b>Entre les deux AG FFDN</b>
 <i>Better 😺</i>
 
--- [img/dotcubefiles.png] [bottom]
+-- [transition=text-slide-down] [img/dotcubefiles.png] [bottom]
 Arrivée des fichiers .cube
 
 -- [img/vpnclient_works.png] [bottom]
 It works, bitches!
 
--- [img/installsd_help.png] [bottom]
+-- [transition=text-slide-down] [img/installsd_help.png] [bottom]
 Arrivée de install-sd.sh
 
 -- [img/installsd_install.png] [bottom]
 1 seule commande à taper pour créer une carte SD
 
--- [img/scripts.png] [bottom]
+-- [transition=text-slide-down] [img/scripts.png] [bottom]
 Arrivée des scripts de configuration
 
 -- [img/scripts_inside.png] [bottom]
 Utiles, mais hardcores... 😱
 
--- [font=Sans 60px] [text-align=center] [fit]
-AG FFDN 2016
+-- [transition=slide-up] [font=Sans 60px] [text-align=center] [fit]
+<b>AG FFDN 2016</b>
 <i>Bonheur 😻</i>
 
--- [img/hypercube1.png] [bottom]
+-- [transition=text-slide-down] [img/hypercube1.png] [bottom]
 Arrivée de l'HyperCube
 
 -- [img/hypercube2.png] [bottom]
@@ -153,7 +154,7 @@ Guide d'installation dynamique
 -- [img/hypercube6.png] [bottom]
 C'est aussi un générateur de .cube pour les assos 😉
 
--- [font=Sans 60px] [fit] [command=firefox --new-window https://install.labriqueinter.net]
-Démonstration
+-- [transition=page-curl-both] [font=Sans 60px] [fit] [command=firefox --new-window https://install.labriqueinter.net]
+<b>Démonstration</b>
 
 # TODO: Ajouter debug
