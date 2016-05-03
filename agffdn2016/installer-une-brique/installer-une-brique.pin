@@ -1,0 +1,159 @@
+#!/usr/bin/env pinpoint
+
+# https://developer.gnome.org/pygtk/stable/pango-markup-language.html
+# http://apps.timwhitlock.info/emoji/tables/unicode
+
+[img/intro.png]
+[fill]
+[font=Sans 50px]
+
+-- [font=Sans 60px] [text-align=center] [fit]
+Installer une Brique Internet
+<small><i>Labeur, Better, Bonheur</i></small>
+
+-- [font=Sans 60px] [text-align=center] [fit]
+AG FFDN 2015
+<i>Labeur 😼</i>
+
+-- [img/repo.png] [text-align=center] [bottom] [fit]
+Télécharger l'image Debian/YunoHost
++ vérifier le MD5
+
+-- []
+<b>Décompresser l'image et l'installer sur la carte SD</b>
+
+<tt>% tar xf labriqueinternet_*.img.tar.xz
+% sudo dd if=/tmp/labriqueinternet_*.img of=/dev/mmcblk0</tt>
+
+-- []
+<b>Trouver l'IPv4 privée de la Brique 😖</b>
+
+<tt>% sudo apt-get install arp-scan
+% sudo arp-scan --local | grep -P '\t02'
+192.168.1.42    02:14:06:42:f5:18       (Unknown)</tt>
+
+-- []
+<b>Se connecter en SSH sur la Brique</b>
+
+<tt>% ssh root@192.168.1.42</tt>
+
+-- []
+<b>Changer le mot de passe root</b>
+
+<tt>(current) UNIX password:
+Enter new UNIX password:
+Retype new UNIX password:</tt>
+
+-- []
+<b>Mettre Debian et YunoHost à jour</b>
+
+<tt>% apt-get update &amp;&amp; apt-get dist-upgrade</tt>
+
+-- []
+<b>Faire la post-install de YunoHost</b>
+
+<tt>% yunohost tools postinstall
+Main domain: poney.ninja
+New administration password:
+Confirm new administration password:</tt>
+
+-- []
+<b>Temporairement créer le NDD en local 😓</b>
+
+<tt>% echo '192.168.1.42 poney.ninja' >> /etc/hosts</tt>
+
+-- [img/connect_admin.png] [bottom]
+Se connecter à l'admin YunoHost
+
+-- [img/new_user.png] [bottom]
+Créer l'utilisateur principal
+
+-- [img/install_vpnclient.png] [bottom]
+Installer VPN Client (adresse GitHub)
+
+-- [img/install_hotspot.png] [bottom]
+Installer Wifi Hotspot (adresse GitHub)
+
+-- [img/access_user_vpnclient.png] [bottom]
+Limiter l'accès de l'admin de VPN Client
+
+-- [img/access_user_hotspot.png] [bottom]
+Limiter l'accès de l'admin de Wifi Hotspot
+
+-- [img/connect_user.png] [bottom]
+Se connecter avec l'utilisateur principal
+
+-- [img/config_vpnclient.png] [bottom] [fit]
+Configurer le compte VPN
+
+-- [img/config_hotspot.png] [bottom] [fit]
+Configurer le point d'accès Wifi
+
+-- []
+<b>Trouver la bonne configuration DNS avec les IP du compte VPN</b>
+
+<tt>@ 14400 IN A 80.67.188.42
+* 14400 IN A 80.67.188.42
+@ 14400 IN AAAA 2001:913::42
+* 14400 IN AAAA 2001:913::42
+_xmpp-client._tcp 14400 IN SRV 0 5 5222 poney.ninja.
+_xmpp-server._tcp 14400 IN SRV 0 5 5269 poney.ninja.
+@ 14400 IN MX 5 poney.ninja.</tt>
+
+-- [font=Sans 60px] [text-align=center] [fit]
+Entre les deux AG FFDN
+<i>Better 😺</i>
+
+-- [img/dotcubefiles.png] [bottom]
+Arrivée des fichiers .cube
+
+-- [img/vpnclient_works.png] [bottom]
+It works, bitches!
+
+-- [img/installsd_help.png] [bottom]
+Arrivée de install-sd.sh
+
+-- [img/installsd_install.png] [bottom]
+1 seule commande à taper pour créer une carte SD
+
+-- [img/scripts.png] [bottom]
+Arrivée des scripts de configuration
+
+-- [img/scripts_inside.png] [bottom]
+Utiles, mais hardcores... 😱
+
+-- [font=Sans 60px] [text-align=center] [fit]
+AG FFDN 2016
+<i>Bonheur 😻</i>
+
+-- [img/hypercube1.png] [bottom]
+Arrivée de l'HyperCube
+
+-- [img/hypercube2.png] [bottom]
+1) Quelques questions pour situer l'utilisateur
+
+-- [img/hypercube3.png] [bottom]
+2) Upload du fichier .cube
+
+-- [img/hypercube4.png] [bottom]
+3) Configuration de YunoHost et du Wifi
+
+-- [img/hypercube6.png] [bottom]
+Guide d'installation dynamique
+
+-- []
+<b>Étapes du guide :</b>
+
+<b>1)</b> Télécharger le fichier .hypercube
+<b>2)</b> Utiliser install-sd.sh
+<b>3)</b> Brancher la Brique et patienter
+
+⇢ <i>Le wifi apparaît, c'est terminé 😘</i>
+
+-- [img/hypercube7.png] [bottom]
+C'est aussi un générateur de .cube pour les assos 😉
+
+-- [font=Sans 60px] [fit] [command=firefox --new-window https://install.labriqueinter.net]
+Démonstration
+
+# TODO: Ajouter debug
