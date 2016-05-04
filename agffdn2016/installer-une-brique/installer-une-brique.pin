@@ -2,6 +2,7 @@
 
 # https://developer.gnome.org/pygtk/stable/pango-markup-language.html
 # http://apps.timwhitlock.info/emoji/tables/unicode
+# http://www.w3schools.com/charsets/ref_utf_geometric.asp
 
 [img/intro.png]
 [fill]
@@ -154,7 +155,18 @@ Guide d'installation dynamique
 -- [img/hypercube6.png] [bottom]
 C'est aussi un générateur de .cube pour les assos 😉
 
+-- [img/dbffdn.png]
+<b>Chères assos, vous pouvez supporter la Brique Internet :</b>
+
+▸ <b>Essentiel :</b> Fournir systématiquement des .cube avec vos comptes VPN
+▸ <b>Merveilleux :</b> Fournir des Briques clé-en-main (comme dans la vidéo) !
+▸ <b>Bonus :</b> Vous ajouter sur la carte des assos participantes
+
 -- [transition=page-curl-both] [font=Sans 60px] [fit] [command=firefox --new-window https://install.labriqueinter.net]
 <b>Démonstration</b>
 
-# TODO: Ajouter debug
+-- [img/installsd_cubes.png] [bottom]
+Débogage : Trouver l'adresse de l'interface de debug
+
+-- [img/hypercube_debug.png] [bottom] [fit]
+Débogage : Visualisation de l'avancement de l'installation
