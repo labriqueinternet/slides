@@ -109,6 +109,9 @@ _xmpp-server._tcp 14400 IN SRV 0 5 5269 poney.ninja.
 -- [transition=text-slide-down] [img/dotcubefiles.png] [bottom]
 Arrivée des fichiers .cube
 
+-- [img/upload_dotcube.png] [bottom]
+Configuration du VPN en 1 clic
+
 -- [img/vpnclient_works.png] [bottom]
 And it works, bitches!
 
